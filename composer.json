@@ -1,0 +1,20 @@
+{
+    "name": "waynesun01/baiduAi_php",
+    "description": "百度AI开放平台PHP SDK",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "waynesun",
+            "email": "waynesun01@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+	"autoload":{
+		"psr-4":{
+			"baiduAi\\baiduAi_php\\":"library"
+		}
+	}
+}
